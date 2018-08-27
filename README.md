@@ -48,7 +48,9 @@ Let me get a {BeverageSize} {Creamer} {BeverageType}
 
 ### C. Create Slot types
 Add the following Slot types (each value should be a separate entry); remember to "Save slot type" as you go along. To work independently in a shared environment, use your initials in the names (e.g., cafeBeverageTypeXXX).
+
 Note: Although they are saved with the AWS Account, Slot Types will only show up in the list when they are associated in the next step.
+
 Slot type name	Description	Values (each entry on a separate line)
 cafeBeverageType	Slot types are shared at the account level so text would help other developers determine if they can reuse this Slot type.	coffee; cappuccino; latte; mocha; chai; espresso; smoothie
 cafeBeverageSize		kids; small; medium; large; extra large; six ounce; eight ounce; twelve ounce; sixteen ounce; twenty ounce
@@ -57,6 +59,7 @@ cafeBeverageTemp		kids; hot; iced
  
 ### D. Add Slots to the Intent
 Add the following entries to the list of Slots, choosing the Slot Types created above. Click "Save Intent".
+
 Required	Name	Slot type	Prompt
 Yes	BeverageType	cafeBeverageType	What kind of beverage would you like? For example, mocha, chai, etc.
 Yes	BeverageSize	cafeBeverageSize	What size? small, medium, large?
