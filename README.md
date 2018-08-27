@@ -31,10 +31,14 @@ o	Hang-up phrase: (one phrase) Sorry, I could not understand. Goodbye.
 
 ### B. Create Order Beverage Intent
 From the left, add a new Intent called cafeOrderBeverageIntent with the following settings and click "Save Intent" to save the Intent.
+
 To work independently in a shared environment, use your initials in the Intent name (e.g., cafeOrderBeverageIntentXXX).
+
 1.	Lambda initialization and validation (leave unchecked)
 2.	Fulfillment: choose "Return parameters to client" for now
-3.	Confirmation prompt: You'd like me to order a {BeverageSize} {BeverageType}. Is that right? to confirm and Okay. Nothing to order this time. See you next time! to cancel.
+3.	Confirmation prompt: 
+You'd like me to order a {BeverageSize} {BeverageType}. Is that right? to confirm and 
+Okay. Nothing to order this time. See you next time! to cancel.
 4.	Sample Utterances: add these to the list of sample utterances so the bot recognizes similar phrases (each entry on a separate line)
 I would like a {BeverageSize} {BeverageType}
 Can I get a {BeverageType}
