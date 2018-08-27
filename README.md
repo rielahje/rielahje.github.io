@@ -4,14 +4,23 @@ CoffeeBot is a transactional chat bot that can help one order a mocha online.
 
 Consider this conversation:
 User: May I have a mocha?
+
 CoffeeBot: What size? small, medium, large?
+
 User: small
+
 CoffeeBot: Would you like that iced or hot?
+
 User: hot
+
 CoffeeBot: You'd like me to order a small mocha. Is that right?
+
 User: Make it a large mocha
+
 CoffeeBot: You'd like me to order a large mocha. Is that right?
+
 User: yeah
+
 CoffeeBot: Great! Your mocha will be available for pickup soon. Thanks for using CoffeeBot!
 
 First, we'll create the Amazon Lex bot. Then, we'll add some Lambda Functions to bring it to life. 
