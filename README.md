@@ -3,6 +3,7 @@
 CoffeeBot is a transactional chat bot that can help one order a mocha online.
 
 Consider this conversation:
+
 User: May I have a mocha?
 CoffeeBot: What size? small, medium, large?
 User: small
